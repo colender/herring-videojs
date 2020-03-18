@@ -1,0 +1,20 @@
+{
+  "name": "video-js",
+  "version": "1.0.0",
+  "description": "This is just a testing player for Herring Google DFU using Video JS ",
+  "main": "main.js ",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --config webpack.config.js"
+  },
+  "author": "Ruben Rangel",
+  "license": "ISC",
+  "dependencies": {
+    "videojs-ima": "^1.8.0"
+  },
+  "devDependencies": {
+    "video.js": "^7.6.6",
+    "webpack": "^4.42.0",
+    "webpack-cli": "^3.3.11"
+  }
+}
